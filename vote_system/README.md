@@ -1,9 +1,27 @@
-### Sistema distribuído mínimo escrito em Java.
-Implementa:
-> - Comunicação unicast por protocolo TCP
-> - Comunicação multicast por protocolo UDP.
+#### Compilação
 
-Para representação externa dos dados, foi usado **Protocol Buffers**, devido a seus carater estruturado e seguro, ideal para o cenário de um sistema de votação.
+No diretório raiz do projeto `vote_system`, execute o seguinte comando:
 
-> Obs: Mesmo com isso, o sistema conta com uma simplicidade estrutural na identificação de eleitor e administrador
-para manter a simplicidade do sistema.
+```bash
+mvn clean install
+```
+
+Isso irá compilar o projeto, incluindo os arquivos do Protocol Buffers, e criar um arquivo JAR no diretório `target`.
+
+#### Executando o Servidor
+
+Para executar o servidor, execute o seguinte comando a partir do diretório raiz do projeto `vote_system`:
+
+```bash
+mvn exec:java -Dexec.mainClass="org.example.Server"
+```
+
+O servidor será iniciado e aguardará as conexões do cliente.
+
+#### Executando o Cliente
+
+Para executar o cliente, abra um novo terminal e execute o seguinte comando a partir do diretório raiz do projeto `vote_system`:
+
+```bash
+mvn exec:java -Dexec.mainClass="org.example.Client"
+```
