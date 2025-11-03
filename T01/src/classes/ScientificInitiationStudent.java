@@ -50,7 +50,7 @@ public class ScientificInitiationStudent
     @Override
     public String toString() {
         return (
-            "Estudante de iniciacao cientifica" +
+            "Estudante de iniciacao cientifica\n" +
             "nome='" +
             getName() +
             '\'' +
