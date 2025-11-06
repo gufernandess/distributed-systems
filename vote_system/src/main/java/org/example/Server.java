@@ -11,7 +11,7 @@ public class Server {
     private static final int PORTA_TCP = 12345;
     private static final String GRUPO_MULTICAST = "230.0.0.0";
     private static final int PORTA_MULTICAST = 6789;
-    private static final int TEMPO_VOTACAO_SEGUNDOS = 60;
+    private static final int TEMPO_VOTACAO_SEGUNDOS = 5;
 
     private static Map<String, CandidatoData> candidatos =
         new ConcurrentHashMap<>();

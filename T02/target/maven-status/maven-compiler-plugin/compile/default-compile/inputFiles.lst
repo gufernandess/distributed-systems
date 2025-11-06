@@ -1,0 +1,11 @@
+/home/gusta/Projects/distributed-systems/T02/src/main/java/org/example/client/Client.java
+/home/gusta/Projects/distributed-systems/T02/src/main/java/org/example/common/JsonUtil.java
+/home/gusta/Projects/distributed-systems/T02/src/main/java/org/example/common/PostGraduateStudent.java
+/home/gusta/Projects/distributed-systems/T02/src/main/java/org/example/common/Remunerable.java
+/home/gusta/Projects/distributed-systems/T02/src/main/java/org/example/common/ScientificInitiationStudent.java
+/home/gusta/Projects/distributed-systems/T02/src/main/java/org/example/common/Student.java
+/home/gusta/Projects/distributed-systems/T02/src/main/java/org/example/common/StudentService.java
+/home/gusta/Projects/distributed-systems/T02/src/main/java/org/example/common/UndergraduateProgram.java
+/home/gusta/Projects/distributed-systems/T02/src/main/java/org/example/common/UndergraduateStudent.java
+/home/gusta/Projects/distributed-systems/T02/src/main/java/org/example/server/Server.java
+/home/gusta/Projects/distributed-systems/T02/src/main/java/org/example/server/StudentServiceImpl.java

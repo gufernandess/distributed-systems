@@ -1,0 +1,11 @@
+org/example/common/UndergraduateStudent.class
+org/example/common/PostGraduateStudent.class
+org/example/common/JsonUtil.class
+org/example/common/UndergraduateProgram.class
+org/example/common/Student.class
+org/example/common/StudentService.class
+org/example/client/Client.class
+org/example/common/Remunerable.class
+org/example/server/StudentServiceImpl.class
+org/example/server/Server.class
+org/example/common/ScientificInitiationStudent.class
